@@ -1,0 +1,155 @@
+
+
+.form-control {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (min-width:768px){
+    .containers{max-width:720px}
+    .grid-container{max-width:400px}
+}
+
+@media (min-width:1200px){
+    .containers{max-width:1140px}
+    .grid-container{max-width:1000px}
+}
+
+@media (min-width:1400px){
+    .containers{max-width:1320px}
+    .grid-container{max-width:1100px}
+}
+
+.containers{
+    padding-top: 10%;
+    width:50%;
+    padding-right:2rem;
+    padding-left:2rem;
+    margin-right:auto;
+    margin-left:auto;
+    vertical-align: super;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-container{
+    width: 100%;
+    padding-right:2rem;
+    padding-left:2rem;
+    margin-right:auto;
+    margin-left:auto
+}
+.wordListTitle{
+    display: grid;
+    grid-template-columns: 13% 13% 23% 23% 18% 8%;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border-color: #ced4da;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+
+.highlight{
+    font-size: 2rem;
+    font-family: "Arial Narrow";
+}
+
+.wordlist1{
+    display: grid;
+    grid-template-columns: 13% 13% 23% 23% 18% 8%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    border-color: #ced4da;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    background: aliceblue;
+}
+
+.wordlist2{
+    display: grid;
+    grid-template-columns: 13% 13% 23% 23% 18% 8%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    border-color: #ced4da;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    background: white;
+}
+
+.buttonDiv{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.liner{
+    border-style: solid;
+    border-color: #ced4da;
+}
+
+.greener{
+    background: green;
+    color: white;
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    align-items: center;
+
+}
+
+.middle{
+    width: 50%;
+    margin: auto;
+}
+
+.edit{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+}
+
+.red{
+    background: red;
+    border-color: red;
+}
+
+.red:hover{
+    background: #c1242f;
+    border-color:  #c1242f;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: dimgray;
+    text-decoration: none;
+}
+
+
+
+
